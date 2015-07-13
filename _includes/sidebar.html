@@ -9,18 +9,18 @@
 
   <section>
     <h4 class="heading -bordered"> Getting Started </h4>
-    {% for page in site.pages %}
-      {% if page.section == "intro" %}
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% for node in site.pages %}
+      {% if node.section == "intro" %}
+        <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
       {% endif %}
     {% endfor %}
   </section>
 
   <section>
     <h4 class="heading"> API Documentation </h4>
-    {% for page in site.pages %}
-      {% if page.section == "api" %}
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% for node in site.pages %}
+      {% if node.section == "api" %}
+        <a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
       {% endif %}
     {% endfor %}
   </section>

@@ -48,7 +48,8 @@
       text-decoration: none;
     }
 
-    &:hover {
+    &:hover,
+    &.-active {
       background: $off-gray;
     }
   }
