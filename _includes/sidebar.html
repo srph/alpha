@@ -1,0 +1,27 @@
+<div class="menu">
+  <h4 class="main-heading">
+    {{ site.title }}
+  </h4>
+
+  <a href="{{ site.baseurl }}" class="logo-container">
+    <img src="{{ '/img/logo.svg' | prepend: site.baseurl }}">
+  </a>
+
+  <section>
+    <h4 class="heading -bordered"> Getting Started </h4>
+    {% for page in site.pages %}
+      {% if page.section == "intro" %}
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </section>
+
+  <section>
+    <h4 class="heading"> API Documentation </h4>
+    {% for page in site.pages %}
+      {% if page.section == "api" %}
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </section>
+</div>

@@ -1,0 +1,14 @@
+@mixin label-variant($bg, $color) {
+  color: $color;
+  border-color: $bg;
+}
+
+.label {
+  display: inline-block;
+  padding: 0 10px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  border-radius: $rounded;
+  border: 1px solid $black;
+}

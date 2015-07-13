@@ -16,6 +16,7 @@ $emerald: #4AD27A;
 $base-font-size:   14px;
 $small-font-size:  12px;
 $base-line-height: 1.7;
+$rounded: 25px;
 
 $spacing-unit: 30px;
 $gutter: 15px; // horizontal
@@ -30,5 +31,8 @@ $gutter: 15px; // horizontal
   "components/content",
   "components/container",
   "components/special-heading",
+  "components/example-heading",
+  "components/label",
+  "components/bottom-spacing",
   "vendor/syntax-highlighting"
 ;
