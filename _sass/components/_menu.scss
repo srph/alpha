@@ -50,7 +50,8 @@
 
     &:hover,
     &.-active {
-      background: $off-gray;
+      background: $black;
+      color: $white;
     }
   }
 }
