@@ -2,6 +2,8 @@
   float: left;
   width: calc(50%);
   min-height: 100vh;
+  // just some spacing for long pages hahahah
+  padding-bottom: $spacing-unit;
 
   > .section-area {
     padding: 15px 20px;
