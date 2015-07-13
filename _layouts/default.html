@@ -5,7 +5,7 @@
 
   <body>
 
-    <section class="row">
+    <section class="container">
       <div class="menu">
         <h4 class="main-heading">
           {{ site.title }}
@@ -35,12 +35,13 @@
       </div>
 
 
-      <div class="col-8">
-        <div class="wrapper">
+      <main class="content">
+        <div class="content-section">
+          <h1 class="special-heading">{{ page.title }}</h1>
           {{ content }}
         </div>
       </div>
-    </section>
+    </main>
   </body>
 
 </html>

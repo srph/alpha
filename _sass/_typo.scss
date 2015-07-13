@@ -1,9 +1,9 @@
-@mixin open-sans() {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+@mixin bitter() {
+  font-family: "Bitter", "Lora", Georgia, serif;
 }
 
-@mixin open-sans-light() {
-  font-weight: 300;
+@mixin lora() {
+  font-family: "Lora", Georgia, serif;
 }
 
 @mixin typoline() {
@@ -21,6 +21,11 @@ ul, ol, dl, figure {
   @include vertical-rhythm;
 }
 
+h1, h2, h3, h4, h6, h6 {
+  color: $gray;
+  @include bitter;
+}
+
 a {
   color: $link;
   text-decoration: none;
@@ -28,5 +33,16 @@ a {
   &:hover {
     color: darken($link, 5%);
     text-decoration: underline;
+  }
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px 20px;
+  border-left: 3px solid $black;
+
+  > p {
+    margin: 0;
   }
 }

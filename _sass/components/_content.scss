@@ -1,0 +1,14 @@
+.content {
+  float: left;
+  width: calc(50%);
+  min-height: 100vh;
+
+  > .section-area {
+    padding: 15px 20px;
+    background: $emerald;
+  }
+
+  > .content-section {
+    padding: 20px 50px;
+  }
+}

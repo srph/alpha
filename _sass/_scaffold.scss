@@ -8,6 +8,7 @@
 html, body {
   color: $black;
   font-size: 14px;
+  line-height: 1.7;
   background: $white;
-  @include open-sans;
+  @include lora;
 }

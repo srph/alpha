@@ -1,0 +1,10 @@
+.special-heading {
+  color: $black;
+
+  &:after {
+    content: "";
+    display: block;
+    margin-top: ($spacing-unit / 2);
+    @include typoline;
+  }
+}

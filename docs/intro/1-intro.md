@@ -4,11 +4,15 @@ title: Introduction
 
 **Alpha** is an elegant theme built with Jekyll for documentations.
 
-## Alpha is an elegant theme
-## Alpha is an elegant theme
+
+#### Alpha is an elegant theme
+
 ### Alpha is an elegant theme
-#### Alpha is an elegant theme
-#### Alpha is an elegant theme
+
+## Alpha is an elegant theme
+
+# Alpha is an elegant theme
+
 
 > This is a blockquote
 
