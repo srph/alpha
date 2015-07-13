@@ -22,7 +22,8 @@ $spacing-unit: 30px;
 $gutter: 15px; // horizontal
 
 @import
-  "../bower_components/normalize.css/normalize.css",
+  "vendor/normalize",
+  "vendor/osx-lion-scrollbar",
   "utils",
   "typo",
   "grid",
