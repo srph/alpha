@@ -6,13 +6,13 @@
   <body>
 
     <section class="container">
-      {% sidebar.html %}
+      {% include sidebar.html %}
 
 
       <main class="content">
         <div class="content-section">
           <h1 class="special-heading">{{ page.title }}</h1>
-          
+
           {% if page.section =="docs" and page.type %}
             <div class="bottom-spacing-1">
               <span class="label">{{ page.type }}</span>
