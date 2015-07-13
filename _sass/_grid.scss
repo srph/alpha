@@ -1,0 +1,16 @@
+@mixin row() {
+  margin-left: -$gutter;
+  margin-right: -$gutter;
+}
+
+@mixin span-columns($span) {
+  padding-left: $gutter;
+  padding-right: $gutter;
+  width: (100% / 12) * $span;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    @include span-columns($i);
+  }
+}
