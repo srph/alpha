@@ -13,3 +13,4 @@ An extremely simple Jekyll template for documentations.
 
 - Non-responsive (only for desktop screens)
 - Supports anchors on headings
+- Does not support FF versions `<8`.
