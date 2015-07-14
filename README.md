@@ -1,4 +1,4 @@
-![screenshot 2015-07-13 16 54 41](https://cloud.githubusercontent.com/assets/5093058/8646148/eb7e3a6c-297f-11e5-86e2-0f047c5407c3.png)
+![screenshot 2015-07-14 18 59 56](https://cloud.githubusercontent.com/assets/5093058/8671927/cbe3a84a-2a5b-11e5-96e8-691d09a77f70.png)
 
 
 # alpha
