@@ -29,9 +29,9 @@
     }
   }
 })(document.querySelectorAll(
-  '.content-section > h1:not(.special-heading), ' +
-  '.content-section > h2:not(.special-heading), ' +
-  '.content-section > h3:not(.special-heading), ' +
-  '.content-section > h4:not(.special-heading), ' +
-  '.content-section > h5:not(.special-heading)'
+  '.content-section > h1:not(.special-heading):not(.example-heading), ' +
+  '.content-section > h2:not(.special-heading):not(.example-heading), ' +
+  '.content-section > h3:not(.special-heading):not(.example-heading), ' +
+  '.content-section > h4:not(.special-heading):not(.example-heading), ' +
+  '.content-section > h5:not(.special-heading):not(.example-heading)'
 ));
