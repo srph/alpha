@@ -1,0 +1,15 @@
+.anchor-heading {
+  > a {
+    color: $black;
+  }
+
+  > a,
+  > a:hover {
+    text-decoration: none;
+  }
+
+  > a > span {
+    color: $gray;
+    margin-left: 10px;
+  }
+}
