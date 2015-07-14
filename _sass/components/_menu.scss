@@ -7,6 +7,7 @@
   background: $off-gray;
   border-right: 1px solid $off-gray;
   @include osx-scrollbar;
+  @include osx-scrollbar-vt;
 
   > .main-heading {
     margin: 0;
