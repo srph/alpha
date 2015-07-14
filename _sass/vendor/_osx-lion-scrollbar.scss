@@ -20,15 +20,6 @@
 
 /* Turn on custom 8px wide scrollbar */
 @mixin osx-scrollbar() {
-  & {
-    position: relative;
-    overflow: hidden;
-  }
-
-  &:hover {
-    overflow: scroll;
-  }
-
   &::-webkit-scrollbar {
     transition: 0.2s all;
     width: 8px; /* 1px wider than Lion. */
@@ -51,5 +42,16 @@
   &::-webkit-scrollbar-thumb:vertical:active {
     background: rgba(0,0,0,0.61); /* Some darker color when you click it */
     -webkit-border-radius: 100px;
+  }
+}
+
+// Applies the fade-out effect on mouseout for vertical scroll bars.
+@mixin osx-scrollbar-vt() {
+   & {
+    overflow-y: hidden;
+  }
+
+  &:hover {
+    overflow-y: scroll;
   }
 }
