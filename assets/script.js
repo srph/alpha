@@ -2,7 +2,6 @@
  * Append anchors to the headings, like Github.
  */
 ;(function(headings) {
-  console.log(headings);
   for ( var i = 0 ; i < headings.length; i++ ) {
     (function(heading) {
       // we'll assume that headings only contain text.
