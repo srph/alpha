@@ -53,7 +53,7 @@ To make your new section appear in the sidebar, check `_includes/sidebar.html`. 
   {% endraw %}
 {% endhighlight %}
 
-Let's alter it a little bit, and we should have the following now:
+Let's copy it, paste it below the copied code, and alter it a little bit (`page.section` and heading), and we should have the following now:
 
 {% highlight liquid %}
   {% raw %}
@@ -76,5 +76,3 @@ Let's alter it a little bit, and we should have the following now:
 </section>
   {% endraw %}
 {% endhighlight %}
-
-Simply copy-paste and place it where you would it like to appear (before or after a certain section).
