@@ -1,6 +1,7 @@
 .content {
   float: left;
-  width: calc(50%);
+  margin-left: 250px; // sidebar width
+  width: 50%;
   min-height: 100vh;
   // just some spacing for long pages hahahah
   padding-bottom: $spacing-unit;
