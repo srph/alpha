@@ -6,7 +6,7 @@ The theme is very simple.
 
 First, check `config.yml`, and change *Site settings* where you see fit. You should see something similar upon opening the file:
 
-<h4 class="example-heading">config.yml</h4>
+<h4 class="example-heading">_config.yml</h4>
 {% highlight yaml %}
 # Site settings
 title: Alpha
