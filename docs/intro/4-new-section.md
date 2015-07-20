@@ -10,6 +10,7 @@ To make things easier to explain, let's say that we're making a new section call
 
 Check `_config.yaml`, and you should see something similar:
 
+<h4 class="example-heading>_config.yaml</h4>
 {% highlight yaml %}
   -
     scope:
@@ -20,6 +21,7 @@ Check `_config.yaml`, and you should see something similar:
 
 Copy-paste the following lines (below the last section; it won't affect the order in the sidebar), and alter it to your new section. We should have the following now:
 
+<h4 class="example-heading>_config.yaml</h4>
 {% highlight yaml %}
 # other stuff above..
   -
@@ -40,6 +42,7 @@ To add a new page, simply add a markdown file to the `docs/others` directory.
 
 To make your new section appear in the sidebar, check `_includes/sidebar.html`. You should see something similar:
 
+<h4 class="example-heading>sidebar.html</h4>
 {% highlight liquid %}
   {% raw %}
 <section>
@@ -55,6 +58,7 @@ To make your new section appear in the sidebar, check `_includes/sidebar.html`. 
 
 Let's copy it, paste it below the copied code, and alter it a little bit (`page.section` and heading), and we should have the following now:
 
+<h4 class="example-heading>sidebar.html</h4>
 {% highlight liquid %}
   {% raw %}
 <section>
