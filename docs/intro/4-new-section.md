@@ -2,8 +2,6 @@
 title: New Section
 ---
 
-## Introduction
-
 All pages are placed in the `docs` directory; inside its `api` and `intro` sub directory.
 
 To make things easier to explain, let's say that we're making a new section called "Other".
@@ -23,6 +21,12 @@ Check `_config.yaml`, and you should see something similar:
 Copy-paste the following lines (below the last section; it won't affect the order in the sidebar), and alter it to your new section. We should have the following now:
 
 {% highlight yaml %}
+# other stuff above..
+  -
+    scope:
+      path: "docs/intro"
+    values:
+      section: "intro"
   -
     scope:
       path: "docs/others"
@@ -53,6 +57,15 @@ Let's alter it a little bit, and we should have the following now:
 
 {% highlight liquid %}
   {% raw %}
+<section>
+  <h4 class="heading -bordered"> Getting Started </h4>
+  {% for page in site.pages %}
+    {% if page.section == "intro" %}
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% endif %}
+  {% endfor %}
+</section>
+
 <section>
   <h4 class="heading -bordered"> Getting Started </h4>
   {% for page in site.pages %}
