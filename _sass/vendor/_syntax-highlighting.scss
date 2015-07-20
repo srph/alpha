@@ -2,6 +2,7 @@
  * Syntax highlighting styles
  */
 .highlight {
+    padding: $spacing-unit;
     background: #fff;
     @include vertical-rhythm;
 
