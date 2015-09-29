@@ -4,4 +4,4 @@
 # alpha
 An extremely simple Jekyll template for documentations.
 
-[Check the demo](srph.github.io/alpha).
+[Check the demo](http://srph.github.io/alpha).
